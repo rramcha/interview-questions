@@ -3,6 +3,7 @@ import Calendar from '../Calendar/Calendar';
 import './Home.css';
 import reservationInfo from '../../mock-data/data.json';
 import PriceBreakDown from '../PriceBreakDown/PriceBreakDown';
+import { withRouter } from "react-router-dom";
 var moment = require('moment');
 
 class Home extends Component {
@@ -74,9 +75,13 @@ class Home extends Component {
 
     showModal = (data, index) => {
         this.setState({
-            showModal: !this.state.showModal,
             userData: data,
             index: index
+        }, () => {
+            const { userData } = this.state;
+            this.props.history.push('/price-break-down');
+            localStorage.setItem("userData", JSON.stringify(userData));
+
         })
     }
 
@@ -113,7 +118,7 @@ class Home extends Component {
     }
 
     render() {
-        const { reservationInfo, showModal, userData, index } = this.state;
+        const { reservationInfo } = this.state;
         return (
             <div>
                 <div>
@@ -127,7 +132,7 @@ class Home extends Component {
 
                     </div>
                     <div>
-                        {showModal && <PriceBreakDown userData={userData} index={index} />}
+                        {/* <PriceBreakDown userData={userData} index={index} /> */}
                     </div>
 
                 </div>
@@ -164,5 +169,4 @@ class Home extends Component {
         )
     }
 }
-
-export default Home
+export default withRouter(Home);

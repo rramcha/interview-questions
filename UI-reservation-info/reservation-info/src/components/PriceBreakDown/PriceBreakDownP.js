@@ -6,25 +6,38 @@ class PriceBreakDown extends Component {
         super(props);
     }
 
+    componentDidMount() {
+        this.setState({
+            userData: this.props && this.props.userData,
+            index: this.props && this.props.index
+        })
+    }
+
     componentWillReceiveProps(newProps) {
         if (newProps) {
             this.setState({
-                userData: newProps && newProps.userData
+                userData: newProps.userData,
+                index: newProps.index
             })
         }
     }
 
-    handleClick = () => {
-        this.props.history.push('/home');
+    toggle = () => {
+        this.setState({
+            //modal: !this.state.modal
+        })
     }
 
+
+
     render() {
-        //const { userData } = this.props;
-        const userData = JSON.parse(localStorage.getItem('userData'));
+        //const { modal } = this.state;
+        const { userData } = this.props;
+        console.log("price break down", this.props);
         const perDayPrice = userData && userData.price && userData.price.perDay;
         return (
             <div>
-                <h2>Price Breakdown</h2>
+
                 <div>
                     <table id="t01" className="user-table">
                         <tr>
@@ -45,9 +58,6 @@ class PriceBreakDown extends Component {
                         }
                     </table>
                 </div>
-                <button className="btn btn-danger" onClick={this.handleClick}>
-                    Previous
-                </button>
 
             </div>
         )

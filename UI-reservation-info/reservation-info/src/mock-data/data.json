@@ -48,7 +48,7 @@
     {
         "guestInfo": [
             {
-                "name": "Derek Jeter",
+                "name": "J J Watt",
                 "type": "Primary"
             },
             {
@@ -75,6 +75,49 @@
             {
                 "name": "WiFi",
                 "description": "Use the internet!"
+            }
+        ]
+    },
+    {
+        "guestInfo": [
+            {
+                "name": "Angelina Jolie",
+                "type": "Primary"
+            }
+        ],
+        "roomDetails": {
+            "Code": "FAN",
+            "Name": "Fancy Room"
+        },
+        "startDate": "02-15-2020",
+        "endDate": "02-18-2020",
+        "price": {
+            "perDay": [
+                {
+                    "RoomPrice": 255.00,
+                    "RoomTax": 50.00,
+                    "RoomFees": 1.00
+                },
+                {
+                    "RoomPrice": 258.00,
+                    "RoomTax": 50.00,
+                    "RoomFees": 1.00
+                },
+                {
+                    "RoomPrice": 195.00,
+                    "RoomTax": 50.00,
+                    "RoomFees": 1.00
+                }
+            ]
+        },
+        "amenities": [
+            {
+                "name": "WiFi",
+                "description": "Use the internet!"
+            },
+            {
+                "name": "Pool",
+                "description": "Use the swimming pool!"
             }
         ]
     }
