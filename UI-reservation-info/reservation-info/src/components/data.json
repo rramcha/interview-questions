@@ -1,0 +1,313 @@
+[
+    {
+        "guestInfo": [
+            {
+                "name": "Matt Damon",
+                "type": "Additional",
+                "age": 52,
+                "address": {
+                    "streetAddress": "21 2nd Street",
+                    "city": "New York",
+                    "state": "NY",
+                    "postalCode": "10021"
+                }
+            },
+            {
+                "name": "Brad Pitt",
+                "type": "Primary",
+                "age": 45,
+                "address": {
+                    "streetAddress": "256 Gemini St",
+                    "city": "Houston",
+                    "state": "TX",
+                    "postalCode": "77058"
+                }
+            }
+        ],
+        "roomDetails": {
+            "Code": "REG",
+            "Name": "Regular"
+        },
+        "no_of_guests": 2,
+        "parkingRequired": "Yes",
+        "reservationStatus": "Complete",
+        "startDate": "01-01-2020",
+        "endDate": "01-03-2020",
+        "price": {
+            "perDay": [
+                {
+                    "RoomPrice": 50.00,
+                    "RoomTax": 2.00,
+                    "RoomFees": 1.50
+                },
+                {
+                    "RoomPrice": 50.00,
+                    "RoomTax": 5.00,
+                    "RoomFees": 0
+                }
+            ]
+        },
+        "amenities": [
+            {
+                "name": "WiFi",
+                "description": "Use the internet!"
+            },
+            {
+                "name": "Pool",
+                "description": "It has water inside!"
+            },
+            {
+                "name": "Microwave",
+                "description": "Cook things so fast"
+            }
+        ]
+    },
+    {
+        "guestInfo": [
+            {
+                "name": "J J Watt",
+                "type": "Primary",
+                "age": 37,
+                "address": {
+                    "streetAddress": "111 Lakeway St",
+                    "city": "Austin",
+                    "state": "TX",
+                    "postalCode": "45678"
+                }
+            },
+            {
+                "name": "Alex Rodriguez",
+                "type": "Additional",
+                "age": 39,
+                "address": {
+                    "streetAddress": "276 Airport Pkwy",
+                    "city": "San Jose",
+                    "state": "CA",
+                    "postalCode": "43871"
+                }
+            }
+        ],
+        "roomDetails": {
+            "Code": "LUX",
+            "Name": "Luxury"
+        },
+        "no_of_guests": 2,
+        "parkingRequired": "No",
+        "reservationStatus": "Pending",
+        "startDate": "02-11-2025",
+        "endDate": "02-12-2025",
+        "price": {
+            "perDay": [
+                {
+                    "RoomPrice": 75.00,
+                    "RoomTax": 5.00,
+                    "RoomFees": 1.00
+                }
+            ]
+        },
+        "amenities": [
+            {
+                "name": "WiFi",
+                "description": "Use the internet!"
+            }
+        ]
+    },
+    {
+        "guestInfo": [
+            {
+                "name": "Tom Brady",
+                "type": "Primary",
+                "age": 34,
+                "address": {
+                    "streetAddress": "729 Culver st",
+                    "city": "Los Angeles",
+                    "state": "CA",
+                    "postalCode": "34961"
+                }
+            }
+        ],
+        "roomDetails": {
+            "Code": "FAM",
+            "Name": "Family-friendly"
+        },
+        "no_of_guests": 1,
+        "parkingRequired": "Yes",
+        "reservationStatus": "Complete",
+        "startDate": "02-15-2020",
+        "endDate": "02-18-2020",
+        "price": {
+            "perDay": [
+                {
+                    "RoomPrice": 255.00,
+                    "RoomTax": 50.00,
+                    "RoomFees": 1.00
+                },
+                {
+                    "RoomPrice": 258.00,
+                    "RoomTax": 50.00,
+                    "RoomFees": 1.00
+                },
+                {
+                    "RoomPrice": 195.00,
+                    "RoomTax": 50.00,
+                    "RoomFees": 1.00
+                }
+            ]
+        },
+        "amenities": [
+            {
+                "name": "WiFi",
+                "description": "Use the internet!"
+            },
+            {
+                "name": "Pool",
+                "description": "Use the swimming pool!"
+            },
+            {
+                "name": "Breakfast",
+                "description": "Free continental breakfast!"
+            }
+        ]
+    },
+    {
+        "guestInfo": [
+            {
+                "name": "Aaron Rodgers",
+                "type": "Primary",
+                "age": 40,
+                "address": {
+                    "streetAddress": "513 Westway St",
+                    "city": "Los Angeles",
+                    "state": "CA",
+                    "postalCode": "54987"
+                }
+            }
+        ],
+        "roomDetails": {
+            "Code": "BUSS",
+            "Name": "Business"
+        },
+        "no_of_guests": 1,
+        "parkingRequired": "Yes",
+        "reservationStatus": "Pending",
+        "startDate": "03-11-2020",
+        "endDate": "03-15-2020",
+        "price": {
+            "perDay": [
+                {
+                    "RoomPrice": 123.00,
+                    "RoomTax": 13.00,
+                    "RoomFees": 7.00
+                }
+            ]
+        },
+        "amenities": [
+            {
+                "name": "WiFi",
+                "description": "Use the internet!"
+            },
+            {
+                "name": "Parking",
+                "description": "Use the parking!"
+            },
+            {
+                "name": "Business facilities",
+                "description": "Use the facilities!"
+            }
+        ]
+    },
+    {
+        "guestInfo": [
+            {
+                "name": "Ray Lewis",
+                "type": "Primary",
+                "age": 42,
+                "address": {
+                    "streetAddress": "222 One loop St",
+                    "city": "Seattle",
+                    "state": "WA",
+                    "postalCode": "43618"
+                }
+            }
+        ],
+        "roomDetails": {
+            "Code": "LUX",
+            "Name": "Luxury"
+        },
+        "no_of_guests": 1,
+        "parkingRequired": "Yes",
+        "reservationStatus": "Pending",
+        "startDate": "03-19-2020",
+        "endDate": "03-27-2020",
+        "price": {
+            "perDay": [
+                {
+                    "RoomPrice": 453.00,
+                    "RoomTax": 13.00,
+                    "RoomFees": 7.00
+                }
+            ]
+        },
+        "amenities": [
+            {
+                "name": "WiFi",
+                "description": "Use the internet!"
+            },
+            {
+                "name": "Pet Friendly",
+                "description": "Pet Friendly Stay!"
+            },
+            {
+                "name": "Breakfast",
+                "description": "Free continental breakfast!"
+            }
+        ]
+    },
+    {
+        "guestInfo": [
+            {
+                "name": "Earl Mitchell",
+                "type": "Primary",
+                "age": 30,
+                "address": {
+                    "streetAddress": "1205 Hidden Ridge",
+                    "city": "Irving",
+                    "state": "TX",
+                    "postalCode": "75038"
+                }
+            }
+        ],
+        "roomDetails": {
+            "Code": "CAS",
+            "Name": "Casino Suite"
+        },
+        "no_of_guests": 1,
+        "parkingRequired": "No",
+        "reservationStatus": "Complete",
+        "startDate": "02-07-2020",
+        "endDate": "02-10-2020",
+        "price": {
+            "perDay": [
+                {
+                    "RoomPrice": 111.00,
+                    "RoomTax": 9.00,
+                    "RoomFees": 2.00
+                }
+            ]
+        },
+        "amenities": [
+            {
+                "name": "WiFi",
+                "description": "Use the internet!"
+            },
+            {
+                "name": "Pool",
+                "description": "Use the swimming pool!"
+            },
+            {
+                "name": "Gym",
+                "description": "Use the Gym!"
+            }
+        ]
+    }
+]
