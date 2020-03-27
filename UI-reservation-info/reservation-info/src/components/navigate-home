@@ -1,0 +1,22 @@
+
+const React = require('react');
+const { BASE_URI, URI: { RESERVATIONS_HOME }, BTN_LABELS: { PREVIOUS } } = require('./util/constants');
+
+const TemplateNavigateHomePage = React.createClass({
+
+    navigateHome: function () {
+        this.props.defaultProps.history.push(`${BASE_URI}/${RESERVATIONS_HOME}`);
+    },
+
+    render() {
+        return (
+            <div className="template-navigate-home-page">
+                <Button {...this.getPreviousButtonProps()} onClick={this.navigateHome.bind(this)}>
+                    {PREVIOUS}
+                </Button>
+            </div>
+        );
+    },
+});
+
+module.exports = TemplateNavigateHomePage;
