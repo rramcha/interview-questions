@@ -1,0 +1,9 @@
+.template-navigate-home-page {
+
+    .previous {
+
+        &--button-section{
+            margin: 3% 0% 3% 0%;
+        }
+    }
+}
