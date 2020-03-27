@@ -1,0 +1,36 @@
+.template-guest-details-page {
+
+    .user-details{
+        list-style-type: initial;
+        font-size: $font-22;
+        line-height: 38px;
+        color: $secondary-gray;
+        font-weight: 500;
+    }
+
+    .guest-Info-section{
+        padding: 0% 0% 2% 4%;
+    }
+
+    .user-reservation-heading{
+        text-align: center;
+        padding: 25px;
+        color: $secondary-gray;
+    }
+
+    .reservation-status-section{
+        color: $secondary-blue;
+        font-weight: bold;
+    }
+
+    .no-of-guests-section{
+        color: $secondary-blue;
+        font-weight: bold;
+    }
+
+    .no-guests-found{
+        margin-left: 5%;
+        color: $secondary-blue;
+        font-weight: bold;
+    }  
+}
