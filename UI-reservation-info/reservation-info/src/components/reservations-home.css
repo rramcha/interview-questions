@@ -1,0 +1,45 @@
+.template-reservations-home-page{
+
+    .refresh {
+
+        &--button-section{
+            margin: 0% 0% 0% 0%;
+        }
+    }
+
+    .search {
+
+        &--button-section{
+            float: left;
+        }
+    }
+
+    .details{
+        &--button-section{
+            float: right;
+            margin: 2% 0% 0% 0%;
+        }
+    }
+
+    .calendar-main{
+        padding: 1rem;
+        text-align: left;
+      } 
+
+    .btn-padding {
+        padding-left: 2%;
+      }
+
+      .form-container{
+        padding-bottom: 26px;
+        padding-left: 20px;
+        margin-bottom: 6%;
+      }
+
+    .search-section{
+        width: 50%;
+        float:left;
+        padding-right: 10px;
+    }
+
+}
