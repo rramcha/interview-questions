@@ -1,0 +1,36 @@
+.template-reservations-grid-page {
+
+    table {
+        width:100%;
+        font-size: $font-18;
+        color: $secondary-gray;
+        font-weight: 500;
+    }
+
+    table, th, td {
+        border: 1px solid $neutral-black;
+        border-collapse: collapse;
+    }
+    
+    th, td {
+        padding: 15px;
+        text-align: left;
+    }
+
+    table th {
+        background-color: $neutral-black;
+        color: $neutral-white;
+        text-align: center;
+    }
+
+    .total-price{
+        text-align: center;
+    }
+
+    .user-table{
+        .date-range{
+            width: 260px;
+        }
+
+    }
+}
