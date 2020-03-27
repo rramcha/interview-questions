@@ -1,0 +1,13 @@
+.template-search-reservations-page {
+
+    .previous {
+
+        &--button-section{
+            margin: 3% 0% 3% 0%;
+        }
+    }
+
+    .btn-padding {
+        padding-left: 2%;
+      }
+}
